@@ -10,7 +10,7 @@ module.exports = {
         "index": path.join(PATHS.sources, 'pages', 'index', 'index.js')
     },
     output: {
-        filename: './static/[name].js',
+        filename: './static/js/[name].js',
         path: path.resolve(__dirname, './')
     },
     module: {
