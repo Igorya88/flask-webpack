@@ -1,4 +1,5 @@
+import {User} from "../../components/user";
 
-let list = [1,2,3,4];
-
-let [a, b, c, d] = list;
+// component testing and es2015 transformer
+let user = new User('Vasya', 25);
+user.sayHallo();
