@@ -65,9 +65,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-console.log('test');
+"use strict";
+
+
+var list = [1, 2, 3, 4];
+
+var a = list[0],
+    b = list[1],
+    c = list[2],
+    d = list[3];
 
 /***/ })
 /******/ ]);
